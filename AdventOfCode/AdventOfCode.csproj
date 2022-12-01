@@ -12,4 +12,11 @@
     <PackageReference Include="NUnit" Version="3.13.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="2022\01\ElfCaloriesInput.txt" />
+    <Content Include="2022\01\ElfCaloriesInput.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
