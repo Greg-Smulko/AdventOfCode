@@ -13,6 +13,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="2022\03\Rucksacks.Input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2022\03\Rucksacks.Sample.Input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Remove="2022\01\ElfCaloriesInput.txt" />
     <Content Include="2022\01\ElfCaloriesInput.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
